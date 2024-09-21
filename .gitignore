@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Resources ###
+/src/main/resources/*.properties
+/src/main/resources/screenshots
