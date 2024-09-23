@@ -4,9 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import pollub.mail.MailSelenium;
+import pollub.onet.MailSelenium;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 public class Main {
@@ -18,11 +21,11 @@ public class Main {
         // basicTask(options, "Lublin");
 
         //Exercise 2
-        try {
-            mailOperations(options);
-        }catch (IOException e) {
-            System.err.println("File not found");
-        }
+//        try {
+//            mailOperations(options);
+//        }catch (IOException e) {
+//            System.err.println("File not found");
+//        }
     }
 
     /**
