@@ -27,7 +27,7 @@ public class LoginTest {
     private static WebDriver driver;
     private static String login;
     private static String password;
-    private DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    private DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 
     @BeforeAll
     public static void setUpBeforeClass(){
@@ -70,10 +70,10 @@ public class LoginTest {
         try {
             FileUtils.copyFile(
                     screenshot,
-                    new File("./src/test/resources/screenshots/" + dateFormat.format(new Date()) + ".jpg")
+                    new File("./src/test/resources/screenshots/screenshot-" + dateFormat.format(new Date()) + ".jpg")
             );
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("File not found");;
         }
     }
 
