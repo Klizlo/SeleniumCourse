@@ -40,3 +40,5 @@ build/
 ### Resources ###
 /src/main/resources/*.properties
 /src/main/resources/screenshots
+/src/test/resources/*.properties
+/src/test/resources/screenshots

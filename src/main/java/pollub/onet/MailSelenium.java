@@ -1,4 +1,4 @@
-package pollub.mail;
+package pollub.onet;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
